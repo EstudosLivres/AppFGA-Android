@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<!-- Inicio das notícias -->
+		<include layout="@layout/include_maintop"/>
+	<!-- Fim da parte da notícia -->
+    
+    <!-- Início da parte da Dashbar -->
+    <com.google.android.apps.iosched.ui.widget.DashboardLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+        
+        <Button 
+            android:id="@+bt/Noticia"
+            android:text="@string/btn_noticia"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableTop="@drawable/news_icon_128"
+        	style="@style/icones_main_em_pe_estilo"/>
+        
+        <Button 
+            android:id="@+bt/Eventos"
+            android:text="@string/btn_eventos"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableTop="@drawable/events_icon_128" 
+        	style="@style/icones_main_em_pe_estilo"/>
+        
+        <Button 
+            android:id="@+bt/OndeComer"
+            android:text="@string/btn_ondecomer"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableTop="@drawable/food_icon_128" 
+        	style="@style/icones_main_em_pe_estilo"/>
+        
+        <Button 
+            android:id="@+bt/Transporte"
+            android:text="@string/btn_transporte"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableTop="@drawable/bus_icon_128"
+        	style="@style/icones_main_em_pe_estilo"/>
+        
+        <Button 
+            android:id="@+bt/Contatos"
+            android:text="@string/btn_contatos"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableTop="@drawable/info_icon_128" 
+        	style="@style/icones_main_em_pe_estilo"/>
+        
+        <Button 
+            android:id="@+bt/Ajuda"
+            android:text="@string/btn_ajuda"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableTop="@drawable/help_icon_128" 
+        	style="@style/icones_main_em_pe_estilo"/>
+
+    </com.google.android.apps.iosched.ui.widget.DashboardLayout>
+    <!-- Fim do Dashboard -->
+
+</LinearLayout>

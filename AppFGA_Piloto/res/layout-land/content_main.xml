@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        
+	    <Button
+		    android:id="@+bt/Noticia"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:drawableTop="@drawable/news_icon_56"
+	       	style="@style/icones_main_deitado_estilo"/>
+	       
+	    <Button 
+	        android:id="@+bt/Eventos"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:drawableTop="@drawable/events_icon_56" 
+	       	style="@style/icones_main_deitado_estilo"/>
+	       
+	    <Button 
+	        android:id="@+bt/OndeComer"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:drawableTop="@drawable/food_icon_56" 
+	       	style="@style/icones_main_deitado_estilo"/>
+    </LinearLayout>
+       
+   	<!-- Inicio das notícias -->
+   	<LinearLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="fill_parent">
+	    
+		<include layout="@layout/include_maintop" />
+		
+	</LinearLayout>
+	<!-- Fim da parte da notícia -->
+   
+   	<LinearLayout 
+	    android:layout_height="fill_parent"
+	    android:layout_width="wrap_content"
+        android:orientation="vertical">
+	           
+	    <Button 
+	        android:id="@+bt/Transporte"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:drawableTop="@drawable/bus_icon_56"
+	       	style="@style/icones_main_deitado_estilo"/>
+	       
+	    <Button 
+	        android:id="@+bt/Contatos"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:drawableTop="@drawable/info_icon_56" 
+	       	style="@style/icones_main_deitado_estilo"/>
+	       
+	    <Button 
+	        android:id="@+bt/Ajuda"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:drawableTop="@drawable/help_icon_56" 
+	       	style="@style/icones_main_deitado_estilo"/>
+	</LinearLayout>
+</LinearLayout>

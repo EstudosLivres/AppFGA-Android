@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Tema padrão -->
+    <style name="tema" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    
+    <!-- Texto com fonte 12 -->
+    <style name="texto12">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="texto12Negrito" parent="texto12">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Texto font 14 -->
+    <style name="texto14">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="texto14Negrito" parent="texto14">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Texto font 10 -->
+    <style name="texto10">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="texto10Negrito" parent="texto14">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Fim dos estilos de textos -->
+    
+
+	<!-- Estilo para o banner -->
+	<style name="texto14NegritoVerde" parent="texto14Negrito">
+	    <item name="android:background">@color/transparente</item>
+	    <item name="android:textColor">@color/verde</item>
+	</style>
+	<style name="texto10NegritoVerde" parent="texto10">
+	    <item name="android:background">@color/transparente</item>
+	    <item name="android:textColor">@color/verde</item>
+	</style>
+	<style name="texto10PretoTransparent" parent="texto10">
+	    <item name="android:background">@color/transparente</item>
+	    <item name="android:textColor">@color/preto</item>
+	</style>
+	<style name="texto12Verde" parent="texto12">
+	    <item name="android:background">@color/transparente</item>
+	    <item name="android:textColor">@color/verde</item>
+	</style>
+	<style name="texto12PretoTransparent" parent="texto12">
+	    <item name="android:background">@color/transparente</item>
+	    <item name="android:textColor">@color/preto</item>
+	</style>
+	<!-- fim dos estilos do banner -->
+	
+	
+	
+    <!-- Estilos para ícones -->
+	<style name="icones_main_em_pe_estilo">
+	    <item name="android:textColor">@color/verde</item>
+	    <item name="android:textSize">@dimen/tamanho_fonte_icones</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:background">@null</item>
+	    <item name="android:drawablePadding">@dimen/icon_texto_dashbar_dist</item>
+	</style>
+	<!-- Fim dos estilos dos ícones -->
+	
+	<!-- Estilo para os ícones da tela inicial quando com o celular deitado -->
+	<style name="icones_main_deitado_estilo">
+	    <item name="android:background">@null</item>
+	    <item name="android:drawablePadding">@dimen/icon_texto_dashbar_dist</item>
+	    <item name="android:paddingLeft">5dp</item>
+	    <item name="android:paddingRight">5dp</item>
+	</style>
+	<!-- Fim dos icones tela principal deitada -->
+    
+    <!-- Estilo das notícias -->
+    <style name="noticias_titulo_estilo">
+        <item name="android:textSize">@dimen/texto_tamanho_titulo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/verde</item>
+        <item name="android:paddingTop">@dimen/texto_noticia_margin_top</item>
+        <item name="android:paddingBottom">@dimen/texto_noticia_margin_bottom</item>
+    </style>
+
+    <style name="noticias_data_estilo">
+        <item name="android:textSize">@dimen/texto_tamanho_data</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/cinza</item>
+        <item name="android:paddingBottom">@dimen/texto_noticia_margin_bottom</item>
+    </style>
+    
+    <style name="noticias_corpo_estilo">
+        <item name="android:textSize">@dimen/texto_tamanho_corpo</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingBottom">@dimen/texto_noticia_margin_bottom</item>
+        <item name="android:lineSpacingExtra">@dimen/texto_espacamento_linhas</item>
+    </style>
+    
+    <style name="item_noticias_titulo_estilo" parent="noticias_titulo_estilo">
+        <item name="android:textSize">@dimen/item_texto_tamanho_titulo</item>
+    </style>
+    
+    <style name="item_noticias_data_estilo">
+        <item name="android:textSize">@dimen/item_texto_tamanho_data</item>
+    </style>
+    
+    <style name="item_noticias_corpo_estilo">
+        <item name="android:textSize">@dimen/item_texto_tamanho_corpo</item>
+    </style>
+    <!-- Fim do estilo das notícias -->
+    
+    
+    
+</resources>

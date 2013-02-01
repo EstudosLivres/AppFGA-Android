@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+    <!-- Parte da imagem da notícia -->
+    <FrameLayout
+        android:layout_width="@dimen/banner_width_land"
+        android:layout_height="fill_parent">
+          
+          <ImageView
+              android:id="@+imgv/Noticia"
+              android:layout_width="@dimen/banner_width_land"
+              android:layout_height="fill_parent"
+              android:layout_gravity="center_horizontal"
+              android:contentDescription="@string/img_descricao_banner"
+              android:src="@drawable/car"
+              android:scaleType="fitXY" />
+          
+          <!-- Parte do texto da notícia -->
+          <LinearLayout 
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:paddingTop="@dimen/banner_texto_paddingTOP_land">
+           
+	       	 <TextView 
+	       	   android:id="@+tv/BannerTitulo"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:text="@string/banner_titulo"
+	           style="@style/texto14NegritoVerde"/>
+	       	 
+	       	 <TextView 
+	       	   android:id="@+tv/BannerData"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:text="@string/banner_data"
+	           style="@style/texto12Verde"/>
+	       	 
+	       	 <TextView 
+	       	   android:id="@+tv/BannerContent"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:text="@string/banner_content"
+	           android:maxLines="2"
+	           style="@style/texto12PretoTransparent"/>
+		   
+		</LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

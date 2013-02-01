@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="fundo">#ffffff</color>
+	<color name="amarelo">#FFA500</color>
+	<color name="azul">#0000ff</color>
+	<color name="branco">#ffffff</color>
+	<color name="cinza">#a3a3a3</color>
+	<color name="cinza_c">#cccccc</color>
+	<color name="cinza_d">#dddddd</color>
+	<color name="cinza_e">#eeeeee</color>
+	<color name="laranja">#FFA500</color>
+	<color name="preto">#000000</color>
+	<color name="preto_transparente">#99000000</color>
+	<color name="transparente">#99fffFFF</color>
+	<color name="verde">#1a864a</color>
+	<color name="vermelho">#ff0000</color>
+</resources>

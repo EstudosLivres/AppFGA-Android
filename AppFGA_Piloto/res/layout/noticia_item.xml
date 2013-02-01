@@ -1,0 +1,29 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+tv/NoticiaTitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noticia_titulo"
+        style="@style/noticias_titulo_estilo" />
+    
+    <TextView
+        android:id="@+tv/NoticiaData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noticia_data"
+        style="@style/noticias_data_estilo" />
+    
+	<TextView
+        android:id="@+tv/NoticiaCorpo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noticia_texto"
+        android:maxLines="2"
+        style="@style/noticias_corpo_estilo" />
+    
+</LinearLayout>

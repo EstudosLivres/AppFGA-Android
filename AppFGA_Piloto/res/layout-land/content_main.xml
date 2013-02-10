@@ -13,22 +13,22 @@
 		    android:id="@+bt/Noticia"
 	       	android:layout_width="wrap_content"
 	       	android:layout_height="wrap_content"
-	       	android:drawableTop="@drawable/news_icon_56"
+	       	android:drawableTop="@drawable/noticias_icon_96"
 	       	style="@style/icones_main_deitado_estilo"/>
 	       
 	    <Button 
 	        android:id="@+bt/Eventos"
 	       	android:layout_width="wrap_content"
 	       	android:layout_height="wrap_content"
-	       	android:drawableTop="@drawable/events_icon_56" 
+	       	android:drawableTop="@drawable/eventos_icon_96" 
 	       	style="@style/icones_main_deitado_estilo"/>
 	       
 	    <Button 
 	        android:id="@+bt/OndeComer"
 	       	android:layout_width="wrap_content"
 	       	android:layout_height="wrap_content"
-	       	android:drawableTop="@drawable/food_icon_56" 
-	       	style="@style/icones_main_deitado_estilo"/>
+	       	android:drawableTop="@drawable/alimentacao_icon_96" 
+	       	style="@style/icones_main_deitado_icones_menores_estilo"/>
     </LinearLayout>
        
    	<!-- Inicio das notícias -->
@@ -46,25 +46,25 @@
 	    android:layout_width="wrap_content"
         android:orientation="vertical">
 	           
-	    <Button 
+	    <Button
 	        android:id="@+bt/Transporte"
 	       	android:layout_width="wrap_content"
 	       	android:layout_height="wrap_content"
-	       	android:drawableTop="@drawable/bus_icon_56"
+	       	android:drawableTop="@drawable/transporte_icon_96"
 	       	style="@style/icones_main_deitado_estilo"/>
 	       
 	    <Button 
 	        android:id="@+bt/Contatos"
 	       	android:layout_width="wrap_content"
 	       	android:layout_height="wrap_content"
-	       	android:drawableTop="@drawable/info_icon_56" 
-	       	style="@style/icones_main_deitado_estilo"/>
+	       	android:drawableTop="@drawable/info_icon_96" 
+	       	style="@style/icones_main_deitado_icones_menores_estilo"/>
 	       
 	    <Button 
-	        android:id="@+bt/Ajuda"
+	        android:id="@+bt/Config"
 	       	android:layout_width="wrap_content"
 	       	android:layout_height="wrap_content"
-	       	android:drawableTop="@drawable/help_icon_56" 
+	       	android:drawableTop="@drawable/config_icon_96" 
 	       	style="@style/icones_main_deitado_estilo"/>
 	</LinearLayout>
 </LinearLayout>

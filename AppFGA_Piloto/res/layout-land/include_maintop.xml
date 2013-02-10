@@ -30,23 +30,15 @@
 	           android:layout_width="fill_parent"
 	           android:layout_height="wrap_content"
 	           android:text="@string/banner_titulo"
-	           style="@style/texto14NegritoVerde"/>
+	           style="@style/texto18NegritoVerde"/>
 	       	 
 	       	 <TextView 
 	       	   android:id="@+tv/BannerData"
 	           android:layout_width="fill_parent"
 	           android:layout_height="wrap_content"
 	           android:text="@string/banner_data"
-	           style="@style/texto12Verde"/>
+	           style="@style/texto14Verde"/>
 	       	 
-	       	 <TextView 
-	       	   android:id="@+tv/BannerContent"
-	           android:layout_width="fill_parent"
-	           android:layout_height="wrap_content"
-	           android:text="@string/banner_content"
-	           android:maxLines="2"
-	           style="@style/texto12PretoTransparent"/>
-		   
 		</LinearLayout>
     </FrameLayout>
 

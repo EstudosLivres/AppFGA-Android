@@ -7,15 +7,6 @@
     </style>
     
     <!-- Texto com fonte 12 -->
-    <style name="texto12">
-        <item name="android:textColor">@color/preto</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-    <style name="texto12Negrito" parent="texto12">
-        <item name="android:textStyle">bold</item>
-    </style>
-    
-    <!-- Texto font 14 -->
     <style name="texto14">
         <item name="android:textColor">@color/preto</item>
         <item name="android:textSize">14sp</item>
@@ -24,12 +15,21 @@
         <item name="android:textStyle">bold</item>
     </style>
     
+    <!-- Texto font 14 -->
+    <style name="texto18">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="texto18Negrito" parent="texto18">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
     <!-- Texto font 10 -->
     <style name="texto10">
         <item name="android:textColor">@color/preto</item>
         <item name="android:textSize">10sp</item>
     </style>
-    <style name="texto10Negrito" parent="texto14">
+    <style name="texto10Negrito" parent="texto10">
         <item name="android:textStyle">bold</item>
     </style>
     
@@ -37,7 +37,7 @@
     
 
 	<!-- Estilo para o banner -->
-	<style name="texto14NegritoVerde" parent="texto14Negrito">
+	<style name="texto18NegritoVerde" parent="texto18Negrito">
 	    <item name="android:background">@color/transparente</item>
 	    <item name="android:textColor">@color/verde</item>
 	</style>
@@ -49,14 +49,16 @@
 	    <item name="android:background">@color/transparente</item>
 	    <item name="android:textColor">@color/preto</item>
 	</style>
-	<style name="texto12Verde" parent="texto12">
+	<style name="texto14Verde" parent="texto14">
 	    <item name="android:background">@color/transparente</item>
 	    <item name="android:textColor">@color/verde</item>
 	</style>
+	<!-- 
 	<style name="texto12PretoTransparent" parent="texto12">
 	    <item name="android:background">@color/transparente</item>
 	    <item name="android:textColor">@color/preto</item>
 	</style>
+	 -->
 	<!-- fim dos estilos do banner -->
 	
 	
@@ -77,6 +79,13 @@
 	    <item name="android:drawablePadding">@dimen/icon_texto_dashbar_dist</item>
 	    <item name="android:paddingLeft">5dp</item>
 	    <item name="android:paddingRight">5dp</item>
+	    <item name="android:paddingBottom">35dp</item>
+	</style>
+	<!-- Fim dos icones tela principal deitada -->
+	
+	<!-- Estilo para os ícones da tela inicial quando com o celular deitado, ajeitas os icones menores -->
+	<style name="icones_main_deitado_icones_menores_estilo" parent="icones_main_deitado_estilo">
+	    <item name="android:paddingLeft">15dp</item>
 	</style>
 	<!-- Fim dos icones tela principal deitada -->
     

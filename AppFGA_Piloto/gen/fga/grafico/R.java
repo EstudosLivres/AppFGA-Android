@@ -36,6 +36,9 @@ public final class R {
         public static final int vermelho=0x7f06000d;
     }
     public static final class dimen {
+        /**  Parte do texto dentro da caixa semi-transparente 
+         */
+        public static final int banner_align_texto_left=0x7f070004;
         /**  Dimensões da tela MAIN 
  Dimensões do banner 
          */
@@ -47,28 +50,32 @@ public final class R {
         public static final int banner_width_land=0x7f070003;
         /**  Dimensões da DashBar 
          */
-        public static final int icon_texto_dashbar_dist=0x7f070004;
-        public static final int item_texto_tamanho_corpo=0x7f07000e;
-        public static final int item_texto_tamanho_data=0x7f07000d;
+        public static final int icon_texto_dashbar_dist=0x7f070005;
+        public static final int item_noticia_img_height=0x7f070008;
+        public static final int item_noticia_img_width=0x7f070009;
+        public static final int item_texto_tamanho_corpo=0x7f070013;
+        public static final int item_texto_tamanho_data=0x7f070012;
         /**  Tamanho dos textos das notícias quando na lista 
          */
-        public static final int item_texto_tamanho_titulo=0x7f07000c;
-        /**  Dimensão da imagem da noticia 
+        public static final int item_texto_tamanho_titulo=0x7f070011;
+        /**  Dimensão da noticia 
          */
-        public static final int noticia_img_height=0x7f070005;
-        public static final int tamanho_fonte_icones=0x7f07000f;
+        public static final int noticia_img_height=0x7f070006;
+        public static final int noticia_item_padding=0x7f070007;
+        public static final int noticia_texto_corpo=0x7f07000a;
+        public static final int tamanho_fonte_icones=0x7f070014;
         /**  Espaçamento geral entre as linhas dos textos grandes 
          */
-        public static final int texto_espacamento_linhas=0x7f070008;
-        public static final int texto_noticia_margin_bottom=0x7f070007;
+        public static final int texto_espacamento_linhas=0x7f07000d;
+        public static final int texto_noticia_margin_bottom=0x7f07000c;
         /**  Dimensões dos textos das noticias  
          */
-        public static final int texto_noticia_margin_top=0x7f070006;
-        public static final int texto_tamanho_corpo=0x7f07000b;
-        public static final int texto_tamanho_data=0x7f07000a;
+        public static final int texto_noticia_margin_top=0x7f07000b;
+        public static final int texto_tamanho_corpo=0x7f070010;
+        public static final int texto_tamanho_data=0x7f07000f;
         /**  Tamanho dos textos 
          */
-        public static final int texto_tamanho_titulo=0x7f070009;
+        public static final int texto_tamanho_titulo=0x7f07000e;
     }
     public static final class drawable {
         public static final int alimentacao_icon=0x7f020000;
@@ -86,8 +93,9 @@ public final class R {
         public static final int noticia_ex=0x7f02000c;
         public static final int noticias_icon_72=0x7f02000d;
         public static final int noticias_icon_96=0x7f02000e;
-        public static final int transporte_icon_72=0x7f02000f;
-        public static final int transporte_icon_96=0x7f020010;
+        public static final int result_vest=0x7f02000f;
+        public static final int transporte_icon_72=0x7f020010;
+        public static final int transporte_icon_96=0x7f020011;
     }
     public static final class imgv {
         public static final int Noticia=0x7f0a0000;
@@ -111,27 +119,27 @@ public final class R {
          */
         public static final int activity_noticia=0x7f040004;
         public static final int app_name=0x7f040000;
-        public static final int banner_content=0x7f04000b;
-        public static final int banner_data=0x7f04000a;
+        public static final int banner_content=0x7f04000c;
+        public static final int banner_data=0x7f04000b;
         /**  Strings dos textos da aplicação 
  Strings do banner 
          */
-        public static final int banner_titulo=0x7f040009;
-        public static final int btn_ajuda=0x7f040012;
-        public static final int btn_bce=0x7f040018;
-        public static final int btn_config=0x7f040014;
-        public static final int btn_contatos=0x7f040011;
-        public static final int btn_docs=0x7f040019;
-        public static final int btn_eventos=0x7f04000e;
-        public static final int btn_matriculaweb=0x7f040017;
+        public static final int banner_titulo=0x7f04000a;
+        public static final int btn_ajuda=0x7f040013;
+        public static final int btn_bce=0x7f040019;
+        public static final int btn_config=0x7f040015;
+        public static final int btn_contatos=0x7f040012;
+        public static final int btn_docs=0x7f04001a;
+        public static final int btn_eventos=0x7f04000f;
+        public static final int btn_matriculaweb=0x7f040018;
         /**  Strings dos nomes dos botões da tela inicial 
          */
-        public static final int btn_noticia=0x7f04000d;
-        public static final int btn_ondecomer=0x7f04000f;
-        public static final int btn_sms=0x7f040016;
-        public static final int btn_sobre=0x7f040013;
-        public static final int btn_telefones=0x7f040015;
-        public static final int btn_transporte=0x7f040010;
+        public static final int btn_noticia=0x7f04000e;
+        public static final int btn_ondecomer=0x7f040010;
+        public static final int btn_sms=0x7f040017;
+        public static final int btn_sobre=0x7f040014;
+        public static final int btn_telefones=0x7f040016;
+        public static final int btn_transporte=0x7f040011;
         /**  String da base da aplicação 
          */
         public static final int hello=0x7f040003;
@@ -140,16 +148,17 @@ public final class R {
         /**  Strings de descrições das imagens 
          */
         public static final int img_descricao_entrada=0x7f040006;
+        public static final int img_descricao_item_noticia_imagem=0x7f040009;
         public static final int img_descricao_noticia=0x7f040008;
         public static final int menu_settings=0x7f040002;
-        public static final int noticia_data=0x7f04001b;
-        public static final int noticia_texto=0x7f04001c;
+        public static final int noticia_data=0x7f04001c;
+        public static final int noticia_texto=0x7f04001d;
         /**  Strings das notícias 
          */
-        public static final int noticia_titulo=0x7f04001a;
+        public static final int noticia_titulo=0x7f04001b;
         /**  Strings com os nomes das telas 
          */
-        public static final int tela_noticias=0x7f04000c;
+        public static final int tela_noticias=0x7f04000d;
     }
     public static final class style {
         /** 
@@ -178,14 +187,15 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f050001;
+        public static final int corpo_noticia=0x7f050019;
         /**  Fim dos estilos dos ícones 
  Estilo para os ícones da tela inicial quando com o celular deitado 
          */
-        public static final int icones_main_deitado_estilo=0x7f05000e;
+        public static final int icones_main_deitado_estilo=0x7f050010;
         /**  Fim dos icones tela principal deitada 
  Estilo para os ícones da tela inicial quando com o celular deitado, ajeitas os icones menores 
          */
-        public static final int icones_main_deitado_icones_menores_estilo=0x7f05000f;
+        public static final int icones_main_deitado_icones_menores_estilo=0x7f050011;
         /**  
 	<style name="texto12PretoTransparent" parent="texto12">
 	    <item name="android:background">@color/transparente</item>
@@ -195,16 +205,17 @@ public final class R {
  fim dos estilos do banner 
  Estilos para ícones 
          */
-        public static final int icones_main_em_pe_estilo=0x7f05000d;
-        public static final int item_noticias_corpo_estilo=0x7f050015;
-        public static final int item_noticias_data_estilo=0x7f050014;
-        public static final int item_noticias_titulo_estilo=0x7f050013;
-        public static final int noticias_corpo_estilo=0x7f050012;
-        public static final int noticias_data_estilo=0x7f050011;
+        public static final int icones_main_em_pe_estilo=0x7f05000f;
+        public static final int item_img_noticia=0x7f050018;
+        public static final int item_noticias_corpo_estilo=0x7f050017;
+        public static final int item_noticias_data_estilo=0x7f050016;
+        public static final int item_noticias_titulo_estilo=0x7f050015;
+        public static final int noticias_corpo_estilo=0x7f050014;
+        public static final int noticias_data_estilo=0x7f050013;
         /**  Fim dos icones tela principal deitada 
  Estilo das notícias 
          */
-        public static final int noticias_titulo_estilo=0x7f050010;
+        public static final int noticias_titulo_estilo=0x7f050012;
         /**  Tema padrão 
          */
         public static final int tema=0x7f050002;
@@ -217,6 +228,8 @@ public final class R {
         /**  Texto com fonte 12 
          */
         public static final int texto14=0x7f050003;
+        public static final int texto14Cinza=0x7f05000d;
+        public static final int texto14CinzaNegritoItalico=0x7f05000e;
         public static final int texto14Negrito=0x7f050004;
         public static final int texto14Verde=0x7f05000c;
         /**  Texto font 14 

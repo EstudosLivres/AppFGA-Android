@@ -33,12 +33,12 @@ public class NoticiasAdapter extends ArrayAdapter<NoticiaVO>{
 	    //Puxando os componentes gr‡ficos do XML
 	    TextView tvTitulo = (TextView) noticiaItem.findViewById(R.tv.NoticiaTitulo);
 	    TextView tvData = (TextView) noticiaItem.findViewById(R.tv.NoticiaData);
-	    TextView tvCorpo = (TextView) noticiaItem.findViewById(R.tv.NoticiaCorpo);
+//	    TextView tvCorpo = (TextView) noticiaItem.findViewById(R.tv.NoticiaCorpo); TODO
 	    
 	    //Settando os valores aos componentes gr‡ficos
 	    tvTitulo.setText(noticias[position].titulo);
 	    tvData.setText(noticias[position].data);
-	    tvCorpo.setText(noticias[position].content);
+//	    tvCorpo.setText(noticias[position].content); TODO
 	    
 	    
 	    return noticiaItem;

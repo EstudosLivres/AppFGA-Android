@@ -1,15 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:padding="@dimen/noticia_item_padding"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+tv/NoticiaTitulo"
+    <LinearLayout 
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/noticia_titulo"
-        style="@style/noticias_titulo_estilo" />
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:contentDescription="@string/img_descricao_item_noticia_imagem"            
+            android:src="@drawable/result_vest"
+            style="@style/item_img_noticia" />
+        
+	    <TextView
+	        android:id="@+tv/NoticiaTitulo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/noticia_titulo"
+	        style="@style/noticias_titulo_estilo" />
+	    
+    </LinearLayout>
     
     <TextView
         android:id="@+tv/NoticiaData"
@@ -17,7 +32,7 @@
         android:layout_height="wrap_content"
         android:text="@string/noticia_data"
         style="@style/noticias_data_estilo" />
-    
+    <!-- 
 	<TextView
         android:id="@+tv/NoticiaCorpo"
         android:layout_width="fill_parent"
@@ -25,5 +40,5 @@
         android:text="@string/noticia_texto"
         android:maxLines="2"
         style="@style/noticias_corpo_estilo" />
-    
+     -->
 </LinearLayout>

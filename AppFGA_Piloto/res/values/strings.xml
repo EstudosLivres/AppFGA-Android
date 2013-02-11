@@ -14,12 +14,12 @@
     <string name="img_descricao_entrada">Imagem de entrada da aplicação</string>
     <string name="img_descricao_banner">Imagem do banner</string>
     <string name="img_descricao_noticia">Imagem da notícia</string>
-    
+    <string name="img_descricao_item_noticia_imagem">Imagem de um item de notícia</string>
     
     
     <!-- Strings dos textos da aplicação -->
     <!-- Strings do banner -->
-    <string name="banner_titulo">CARRO ELÉTRICO DA UNB GAMA</string>
+    <string name="banner_titulo">Carro elétrico da UnB Gama</string>
     <string name="banner_data">Domingo, 15/07/2012 _ 23:15</string>
     <string name="banner_content">Lorem ipsun, amet it. Dam in amenno dare torime aveneis bate su de critos, amenno dare.</string>
     
@@ -44,7 +44,7 @@
     <!-- Strings das notícias -->
     <string name="noticia_titulo">Professores decidem se aceitam, ou não, a proposta do governo.</string>
     <string name="noticia_data">18 de Julho de 2012</string>
-    <string name="noticia_texto">Os professores chegam à Assembleia Geral convocada pela Diretoria da Associação dos doscentes da UnB (ADUnB) para avaliar a proposta feita pelo Ministério do Planejamento na última sexta-feira, 13, em clima de incerteza quanto aos rumos da greve. A paralisação se estende há mais de 60 dias e tem a adesão de 58 das 59 universidades federais. A assembleia será às 15h30 no Anfiteatro 12, no ICC Norte. Tanto o Comando de Greve da &#8230;</string>
+    <string name="noticia_texto">Os professores chegam à Assembleia Geral convocada pela Diretoria da Associação dos doscentes da UnB (ADUnB) para avaliar a proposta feita pelo Ministério do Planejamento na última sexta-feira, 13, em clima de incerteza quanto aos rumos da greve. A paralisação se estende há mais de 60 dias e tem a adesão de 58 das 59 universidades federais. A assembleia será às 15h30 no Anfiteatro 12, no ICC Norte. Tanto o comandante de Greve da &#8230;</string>
     	
     
     

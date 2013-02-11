@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical" >
 	
     <!-- Parte da imagem da notícia -->
-    <FrameLayout
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/banner_dimen_height">
           
@@ -29,6 +25,7 @@
 	       	   android:id="@+tv/BannerTitulo"
 	           android:layout_width="fill_parent"
 	           android:layout_height="wrap_content"
+	           android:paddingLeft="@dimen/banner_align_texto_left"
 	           android:text="@string/banner_titulo"
 	           style="@style/texto18NegritoVerde"/>
 	       	 
@@ -36,10 +33,9 @@
 	       	   android:id="@+tv/BannerData"
 	           android:layout_width="fill_parent"
 	           android:layout_height="wrap_content"
+	           android:paddingLeft="@dimen/banner_align_texto_left"
 	           android:text="@string/banner_data"
-	           style="@style/texto14Verde"/>
+	           style="@style/texto14CinzaNegritoItalico"/>
 		   
 		</LinearLayout>
     </FrameLayout>
-
-</LinearLayout>

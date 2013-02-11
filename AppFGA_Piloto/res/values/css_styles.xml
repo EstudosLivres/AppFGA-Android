@@ -53,6 +53,14 @@
 	    <item name="android:background">@color/transparente</item>
 	    <item name="android:textColor">@color/verde</item>
 	</style>
+	<style name="texto14Cinza" parent="texto14">
+	    <item name="android:background">@color/transparente</item>
+	    <item name="android:textColor">@color/cinza_e</item>
+	</style>
+	<style name="texto14CinzaNegritoItalico" parent="texto14Cinza">
+	    <item name="android:textStyle">bold|italic</item>
+	</style>
+	
 	<!-- 
 	<style name="texto12PretoTransparent" parent="texto12">
 	    <item name="android:background">@color/transparente</item>
@@ -123,8 +131,17 @@
     <style name="item_noticias_corpo_estilo">
         <item name="android:textSize">@dimen/item_texto_tamanho_corpo</item>
     </style>
-    <!-- Fim do estilo das notícias -->
     
+    <style name="item_img_noticia">
+        <item name="android:paddingTop">@dimen/texto_noticia_margin_top</item>
+        <item name="android:layout_width">@dimen/item_noticia_img_width</item>
+        <item name="android:layout_height">@dimen/item_noticia_img_height</item>
+    </style>
+    
+    <style name="corpo_noticia">
+        <item name="android:padding">@dimen/noticia_texto_corpo</item>
+    </style>
+    <!-- Fim do estilo das notícias -->
     
     
 </resources>

@@ -19,20 +19,20 @@
     <!-- Dimensão da noticia -->
     <dimen name="noticia_img_height">170dp</dimen>
     <dimen name="noticia_item_padding">10dp</dimen>
-    <dimen name="item_noticia_img_height">45dp</dimen>
-    <dimen name="item_noticia_img_width">45dp</dimen>
-    <dimen name="noticia_texto_corpo">10dp</dimen>
+    <dimen name="item_noticia_img_height">65dp</dimen>
+    <dimen name="item_noticia_img_width">65dp</dimen>
+    <dimen name="espacamento_texto_corpo">10dp</dimen>
     
     <!-- Dimensões dos textos das noticias  -->
-    <dimen name="texto_noticia_margin_top">10dp</dimen>
-    <dimen name="texto_noticia_margin_bottom">6dp</dimen>
+    <dimen name="texto_noticia_margin_top">2dp</dimen>
+    <dimen name="texto_noticia_margin_bottom">2dp</dimen>
     
     <!-- Espaçamento geral entre as linhas dos textos grandes -->
     <dimen name="texto_espacamento_linhas">2dp</dimen>
     
     <!-- Tamanho dos textos -->
-    <dimen name="texto_tamanho_titulo">16sp</dimen>
-    <dimen name="texto_tamanho_data">12sp</dimen>
+    <dimen name="texto_tamanho_titulo">12sp</dimen>
+    <dimen name="texto_tamanho_data">10sp</dimen>
     <dimen name="texto_tamanho_corpo">14sp</dimen>
     
     <!-- Tamanho dos textos das notícias quando na lista -->
@@ -42,5 +42,7 @@
     
     <dimen name="tamanho_fonte_icones">14dp</dimen>
     
+    <!-- Dimnesoes de botões de mais info -->
+    <dimen name="espacamento_btn_mais_info">15dp</dimen>
     
 </resources>

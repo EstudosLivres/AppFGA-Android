@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/noticia_item_padding"
+    android:orientation="vertical" >
+        
+    <TextView
+        android:id="@+tv/EventoNome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_nome"
+        android:gravity="center"
+        style="@style/noticias_titulo_estilo" />
+    
+    <TextView
+        android:id="@+tv/EventoHorario"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_horario"
+        android:gravity="center"
+        style="@style/noticias_data_estilo" />
+    
+    <TextView
+        android:id="@+tv/EventoData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_data"
+        android:gravity="center"
+        style="@style/noticias_data_estilo" />
+    
+</LinearLayout>

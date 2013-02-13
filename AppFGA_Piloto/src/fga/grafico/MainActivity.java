@@ -22,7 +22,7 @@ public class MainActivity extends ActivityAbstrata implements RotinaGraficaBase{
 	private String TAG = "MainActivity";
 	
 	//Componentes gráficos
-	Button btnNoticias, btnEventos, btnOndeComer, btnTransporte, btnContatos;	
+	Button btnNoticias, btnEventos, btnOndeComer, btnTransporte, btnSisMat, btnContatos;	
 	
     /** Called when the activity is first created. */
     @Override
@@ -40,6 +40,7 @@ public class MainActivity extends ActivityAbstrata implements RotinaGraficaBase{
 		btnEventos = (Button) findViewById(R.bt.Eventos);
 		btnOndeComer = (Button) findViewById(R.bt.OndeComer);
 		btnTransporte = (Button) findViewById(R.bt.Transporte);
+		btnSisMat = (Button) findViewById(R.bt.SisMat);
 		btnContatos = (Button) findViewById(R.bt.Contatos);
 	}//fim do inicializarComponentes
 
@@ -48,10 +49,23 @@ public class MainActivity extends ActivityAbstrata implements RotinaGraficaBase{
 		//Evento sobre o botão noticia
 		btnNoticias.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent it = new Intent(MainActivity.this, NoticiasActivity.class);
-				startActivity(it);
+				startActivity(new Intent(MainActivity.this, NoticiasActivity.class));
 			}//fim do onClick
 		});//fim do evento de click sobre o botão noticia
+		
+		//Eventos sobre o botão de eventos
+		btnEventos.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, EventosActivity.class));
+			}//fim do onClick
+		});//fim do evento de click sobre o botão de eventos
+
+		//Eventos sobre o botão de contato
+		btnContatos.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, ContatoActivity.class));
+			}//fim do onClick
+		});//fim do evento de click sobre o botão de eventos
 		
 	}//fim do definirEventos
     

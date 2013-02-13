@@ -1,7 +1,5 @@
 package fga.interfaces.superclasses;
 
-/*
-import fga.modelo.MensagemWS;
 
 /**
  * @author Ilton Garcia

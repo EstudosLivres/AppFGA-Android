@@ -8,6 +8,9 @@
     <!-- Nome das activities -->
     <string name="activity_noticia">Notícia</string>
     <string name="activity_lista_noticias">Lista de Notícias</string>
+    <string name="activity_lista_eventos">Lista de Eventos</string>
+    <string name="activity_evento">Evento</string>
+    <string name="activity_contato">Contato</string>
     
     
     <!-- Strings de descrições das imagens -->
@@ -32,7 +35,7 @@
     <string name="btn_ondecomer">ONDE COMER?</string>
     <string name="btn_transporte">TRANSPORTE</string>
     <string name="btn_contatos">CONTATOS</string>
-    <string name="btn_ajuda">AJUDA</string>
+    <string name="btn_sis_mat">SIS MATWEB</string>
     <string name="btn_sobre">Sobre</string>
     <string name="btn_config">Config</string>
     <string name="btn_telefones">Telefones</string>
@@ -42,10 +45,37 @@
     <string name="btn_docs">Docs</string>
     
     <!-- Strings das notícias -->
-    <string name="noticia_titulo">Professores decidem se aceitam, ou não, a proposta do governo.</string>
+    <string name="noticia_titulo">Governador do DF visita UnB para planejar ações conjuntas.</string>
+    <string name="noticia_nome_autor">Stephen Hols</string>
     <string name="noticia_data">18 de Julho de 2012</string>
     <string name="noticia_texto">Os professores chegam à Assembleia Geral convocada pela Diretoria da Associação dos doscentes da UnB (ADUnB) para avaliar a proposta feita pelo Ministério do Planejamento na última sexta-feira, 13, em clima de incerteza quanto aos rumos da greve. A paralisação se estende há mais de 60 dias e tem a adesão de 58 das 59 universidades federais. A assembleia será às 15h30 no Anfiteatro 12, no ICC Norte. Tanto o comandante de Greve da &#8230;</string>
     	
-    
-    
+    <!-- Strings dos eventos -->
+	<string name="evento_nome">ECT 2012</string>
+	<string name="evento_local">Campus UnB Gama</string>    
+	<string name="evento_data_inicio">11/12/2012</string>
+	<string name="evento_data_termino">13/12/2012</string>
+	<string name="evento_horario_inicio">08:00</string>
+	<string name="evento_horario_termino">18:30</string>
+	<string name="evento_tipo_de_evento">outro</string>
+	<string name="evento_contato">mrbreakbeat@gmail.com</string>
+	<string name="evento_mais_info">Mais informações</string>
+	<string name="evento_horario">das 08:00 às 18:30</string>
+	<string name="evento_data">de 11/12/2012 até 13/12/2012 </string>
+	
+	<!-- Parte do contato da FGA -->
+	<string name="contato_titulo">Contato</string>
+	<string name="contato_endereco_fga">
+	    Campus Universitário Gama, Área Especial de Indústria Projeção A
+		\nUniversidade de Brasília
+		\nUF: DF  – Bairro: Setor Leste (GAMA)
+		\nCEP: 72.444-240
+	</string>
+	<string name="contato_telefones">Telefones: </string>
+	<string name="contato_secretaria">Secretaria: (61) 3107 8901</string>
+	<string name="contato_cpd">CPD: (61) 3107 8910</string>
+	<string name="contato_direcao">Direção: (61) 3107 8904</string>
+	<string name="contato_administracao">Administração: (61) 3107 8906</string>
+	<string name="contato_cood_geral">Coodernação geral: (61) 3107 8907</string>
+	
 </resources>

@@ -103,13 +103,22 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/verde</item>
         <item name="android:paddingTop">@dimen/texto_noticia_margin_top</item>
+        <item name="android:paddingLeft">@dimen/espacamento_texto_corpo</item>
         <item name="android:paddingBottom">@dimen/texto_noticia_margin_bottom</item>
     </style>
 
     <style name="noticias_data_estilo">
         <item name="android:textSize">@dimen/texto_tamanho_data</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/cinza</item>
+        <item name="android:paddingLeft">@dimen/espacamento_texto_corpo</item>
+        <item name="android:paddingBottom">@dimen/texto_noticia_margin_bottom</item>
+    </style>
+    
+    <style name="noticias_nome_autor">
+        <item name="android:textSize">@dimen/texto_tamanho_data</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/preto</item>
         <item name="android:paddingBottom">@dimen/texto_noticia_margin_bottom</item>
     </style>
     
@@ -139,9 +148,18 @@
     </style>
     
     <style name="corpo_noticia">
-        <item name="android:padding">@dimen/noticia_texto_corpo</item>
+        <item name="android:padding">@dimen/espacamento_texto_corpo</item>
     </style>
     <!-- Fim do estilo das notícias -->
     
+    <!-- parte dos Eventos -->
+    <style name="evento_titulo" parent="texto18NegritoVerde">
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+    <style name="btnMaisInfo">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/verde</item>
+    </style>
+    <!-- fim da parte dos eventos -->
     
 </resources>

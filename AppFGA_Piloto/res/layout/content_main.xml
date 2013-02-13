@@ -47,19 +47,19 @@
         	style="@style/icones_main_em_pe_estilo"/>
         
         <Button 
+            android:id="@+bt/SisMat"
+            android:text="@string/btn_sis_mat"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:drawableTop="@drawable/config_icon_72" 
+        	style="@style/icones_main_em_pe_estilo"/>
+        
+        <Button 
             android:id="@+bt/Contatos"
             android:text="@string/btn_contatos"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
         	android:drawableTop="@drawable/info_icon_72" 
-        	style="@style/icones_main_em_pe_estilo"/>
-        
-        <Button 
-            android:id="@+bt/Ajuda"
-            android:text="@string/btn_ajuda"
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:drawableTop="@drawable/config_icon_72" 
         	style="@style/icones_main_em_pe_estilo"/>
 
     </com.google.android.apps.iosched.ui.widget.DashboardLayout>

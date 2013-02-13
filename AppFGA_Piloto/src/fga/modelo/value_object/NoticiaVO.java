@@ -1,4 +1,9 @@
 package fga.modelo.value_object;
+/**
+ * 
+ * @author ilton_unb
+ *
+ */
 
 public class NoticiaVO {
 

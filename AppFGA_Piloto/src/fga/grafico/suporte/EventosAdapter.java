@@ -1,7 +1,5 @@
 package fga.grafico.suporte;
 
-import fga.grafico.R;
-import fga.modelo.value_object.NoticiaVO;
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+import fga.grafico.R;
+import fga.modelo.value_object.EventoVO;
 
 /**
  * 
@@ -16,39 +16,43 @@ import android.widget.TextView;
  *
  */
 
-/** Adaptador da criação para criar lista com itens de Noticia **/ 
-public class NoticiasAdapter extends ArrayAdapter<NoticiaVO>{
-	
+/** Adaptador da criação para criar lista com itens de Eventos **/
+public class EventosAdapter extends ArrayAdapter<EventoVO>{
+	//Atributos
 	private final Context context;
-	private final NoticiaVO[] noticias;
+	private final EventoVO[] eventos;
 	
 	private final String TAG = "NoticiasAdapter";
 	
-	public NoticiasAdapter(Context context, NoticiaVO[] noticias) {
-	    super(context, R.layout.noticia_item, noticias);
+	public EventosAdapter(Context context, EventoVO[] eventos) {
+	    super(context, R.layout.noticia_item, eventos);
 	    Log.i(TAG, TAG + " iniciado.");
 	    this.context = context;
-	    this.noticias = noticias;
+	    this.eventos = eventos;
 	}//fim do construtor
 	
 	@Override
 	  public View getView(int position, View convertView, ViewGroup parent) {
 		//Armazenando o inflater do contexto aonde a lista ser‡ presentada
 	    LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	    
 	    //Guardando o item da lista
-	    View noticiaItem = inflater.inflate(R.layout.noticia_item, parent, false);
+	    View eventoItem = inflater.inflate(R.layout.evento_item, parent, false);
+	    
 	    //Puxando os componentes gr‡ficos do XML
-	    TextView tvTitulo = (TextView) noticiaItem.findViewById(R.tv.NoticiaTitulo);
-	    TextView tvData = (TextView) noticiaItem.findViewById(R.tv.NoticiaData);
-//	    TextView tvCorpo = (TextView) noticiaItem.findViewById(R.tv.NoticiaCorpo); TODO
+	    TextView tvNome = (TextView) eventoItem.findViewById(R.tv.EventoNome);
+	    TextView tvHorario = (TextView) eventoItem.findViewById(R.tv.EventoHorario);
+	    TextView tvData = (TextView) eventoItem.findViewById(R.tv.EventoData);
 	    
 	    //Settando os valores aos componentes gr‡ficos
-	    tvTitulo.setText(noticias[position].titulo);
-	    tvData.setText(noticias[position].data);
+	    tvNome.setText(eventos[position].nome);
+	    tvData.setText(eventos[position].getDataInfo());
+	    tvHorario.setText(eventos[position].getHorarioInfo());
 //	    tvCorpo.setText(noticias[position].content); TODO
 	    
 	    
-	    return noticiaItem;
+	    return eventoItem;
 	  }//fim do getView
 	
+
 }//fim da classe

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+	android:paddingLeft="@dimen/espacamento_texto_corpo"
+    android:orientation="vertical" >
+    
+    <TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:paddingBottom="@dimen/espacamento_texto_corpo"
+	    style="@style/texto18NegritoVerde"
+	    android:text="@string/contato_titulo"/>
+    
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="@dimen/espacamento_texto_corpo"
+		android:text="@string/contato_endereco_fga"/>
+    
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textStyle="bold|italic"
+		android:text="@string/contato_telefones"/>
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/contato_secretaria"/>
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/contato_cpd"/>
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/contato_direcao"/>
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/contato_administracao"/>
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/contato_cood_geral"/>
+	
+</LinearLayout>

@@ -54,6 +54,9 @@ public final class R {
         /**  Dimnesoes de botões de mais info 
          */
         public static final int espacamento_btn_mais_info=0x7f070015;
+        /**  Dimensões dos separadores dos itens dos contatso (telefones) 
+         */
+        public static final int espacamento_entre_telefones=0x7f070016;
         public static final int espacamento_texto_corpo=0x7f07000a;
         /**  Dimensões da DashBar 
          */
@@ -261,6 +264,10 @@ public final class R {
  Estilo das notícias 
          */
         public static final int noticias_titulo_estilo=0x7f050012;
+        /**  fim da parte dos eventos 
+ Estilo para os elementos do contato 
+         */
+        public static final int styleTelefonesContato=0x7f05001d;
         /**  Tema padrão 
          */
         public static final int tema=0x7f050002;
@@ -287,18 +294,23 @@ public final class R {
         public static final int texto18NegritoVerde=0x7f050009;
     }
     public static final class tv {
-        public static final int BannerData=0x7f090009;
-        public static final int BannerTitulo=0x7f090008;
-        public static final int EventoContato=0x7f090006;
-        public static final int EventoData=0x7f090007;
-        public static final int EventoDataInicio=0x7f090002;
-        public static final int EventoDataTermino=0x7f090003;
-        public static final int EventoHorario=0x7f090004;
-        public static final int EventoLocal=0x7f090001;
-        public static final int EventoNome=0x7f090000;
-        public static final int EventoTipoDeEvento=0x7f090005;
-        public static final int NoticiaCorpo=0x7f09000c;
-        public static final int NoticiaData=0x7f09000b;
-        public static final int NoticiaTitulo=0x7f09000a;
+        public static final int BannerData=0x7f09000e;
+        public static final int BannerTitulo=0x7f09000d;
+        public static final int ContatoAdministracao=0x7f090003;
+        public static final int ContatoCPD=0x7f090001;
+        public static final int ContatoCoodGeral=0x7f090004;
+        public static final int ContatoDirecao=0x7f090002;
+        public static final int ContatoSecretaria=0x7f090000;
+        public static final int EventoContato=0x7f09000b;
+        public static final int EventoData=0x7f09000c;
+        public static final int EventoDataInicio=0x7f090007;
+        public static final int EventoDataTermino=0x7f090008;
+        public static final int EventoHorario=0x7f090009;
+        public static final int EventoLocal=0x7f090006;
+        public static final int EventoNome=0x7f090005;
+        public static final int EventoTipoDeEvento=0x7f09000a;
+        public static final int NoticiaCorpo=0x7f090011;
+        public static final int NoticiaData=0x7f090010;
+        public static final int NoticiaTitulo=0x7f09000f;
     }
 }

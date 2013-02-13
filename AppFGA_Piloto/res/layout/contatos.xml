@@ -27,28 +27,38 @@
 		android:text="@string/contato_telefones"/>
 	
 	<TextView 
+        android:id="@+tv/ContatoSecretaria"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="@string/contato_secretaria"/>
+		android:text="@string/contato_secretaria"
+		style="@style/styleTelefonesContato"/>
+	
+	<TextView
+        android:id="@+tv/ContatoCPD" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/contato_cpd"
+		style="@style/styleTelefonesContato"/>
 	
 	<TextView 
+	    android:id="@+tv/ContatoDirecao"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="@string/contato_cpd"/>
+		android:text="@string/contato_direcao"
+		style="@style/styleTelefonesContato"/>
 	
 	<TextView 
+	    android:id="@+tv/ContatoAdministracao"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="@string/contato_direcao"/>
+		android:text="@string/contato_administracao"
+		style="@style/styleTelefonesContato"/>
 	
 	<TextView 
+	    android:id="@+tv/ContatoCoodGeral"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="@string/contato_administracao"/>
-	
-	<TextView 
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/contato_cood_geral"/>
+		android:text="@string/contato_cood_geral"
+		style="@style/styleTelefonesContato"/>
 	
 </LinearLayout>

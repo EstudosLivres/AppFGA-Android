@@ -1,6 +1,6 @@
 package fga.grafico;
 
-import fga.grafico.interfaces.RotinaGraficaBase;
+import fga.controller.ActivityEventosController;
 import fga.grafico.suporte.EventosAdapter;
 import fga.modelo.value_object.EventoVO;
 import android.app.ListActivity;
@@ -14,16 +14,20 @@ import android.widget.ListView;
  * @author ilton_unb
  * Data do primeiro coment‡rio: 31/08
  */
-public class EventosActivity extends ListActivity implements RotinaGraficaBase{
+public class EventosActivity extends ListActivity {
 	
 	/** vari‡vel TAG a ser usada na impress‹o de logs **/
 	private String TAG = "Tela de Eventos";
+	ActivityEventosController controller;
 	
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.main); TODO
+        
+        //Instanciação do controller
+        controller = new ActivityEventosController();
         Log.i(TAG, TAG + " iniciada.");
         inicializarComponentes();
         definirEventos();

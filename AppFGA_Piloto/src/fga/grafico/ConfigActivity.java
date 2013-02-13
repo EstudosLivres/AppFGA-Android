@@ -1,7 +1,6 @@
 package fga.grafico;
 
-import fga.grafico.interfaces.RotinaGraficaBase;
-import android.app.Activity;
+import fga.grafico.superclasses.AbstractActivity;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -9,7 +8,7 @@ import android.util.Log;
  * @author ilton_unb
  * Data do primeiro comentário: 31/08
  */
-public class ConfigActivity extends Activity implements RotinaGraficaBase{
+public class ConfigActivity extends AbstractActivity {
 	
 	/** variável TAG a ser usada na impressão de logs **/
 	private String TAG = "Tela de Configuração";

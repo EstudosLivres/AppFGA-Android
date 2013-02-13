@@ -1,6 +1,5 @@
 package fga.grafico.superclasses;
 
-import fga.grafico.interfaces.RotinaGraficaBase;
 import android.app.Activity;
 import android.os.Bundle;
 
@@ -11,7 +10,7 @@ import android.os.Bundle;
  */
 
 
-public abstract class ActivityAbstrata extends Activity implements RotinaGraficaBase{
+public abstract class AbstractActivity extends Activity{
 	
 	
 	//MŽtodo do onCreate  

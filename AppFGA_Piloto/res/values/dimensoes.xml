@@ -45,4 +45,8 @@
     <!-- Dimnesoes de botões de mais info -->
     <dimen name="espacamento_btn_mais_info">15dp</dimen>
     
+    <!-- Dimensões dos separadores dos itens dos contatso (telefones) -->
+    <dimen name="espacamento_entre_telefones">10dp</dimen>
+    
+    
 </resources>

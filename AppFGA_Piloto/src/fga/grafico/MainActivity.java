@@ -1,7 +1,7 @@
 package fga.grafico;
 
-import fga.grafico.interfaces.RotinaGraficaBase;
-import fga.grafico.superclasses.ActivityAbstrata;
+import fga.controller.ActivityMainController;
+import fga.grafico.superclasses.AbstractActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,13 +16,14 @@ import android.widget.Button;
  */
 
 /** Classe que abstrai a tela principal/inicial do app **/
-public class MainActivity extends ActivityAbstrata implements RotinaGraficaBase{
+public class MainActivity extends AbstractActivity {
 
 	/** variável TAG a ser usada na impressão de logs **/
 	private String TAG = "MainActivity";
 	
 	//Componentes gráficos
-	Button btnNoticias, btnEventos, btnOndeComer, btnTransporte, btnSisMat, btnContatos;	
+	Button btnNoticias, btnEventos, btnOndeComer, btnTransporte, btnSisMat, btnContatos;
+	ActivityMainController controller;
 	
     /** Called when the activity is first created. */
     @Override
@@ -30,6 +31,8 @@ public class MainActivity extends ActivityAbstrata implements RotinaGraficaBase{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_main);
         Log.i(TAG, TAG + " iniciada.");
+        //Instanciação do controller
+        controller = new ActivityMainController();
         inicializarComponentes();
         definirEventos();
     }//fim do onCreate

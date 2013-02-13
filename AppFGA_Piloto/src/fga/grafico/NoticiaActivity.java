@@ -1,7 +1,7 @@
 package fga.grafico;
 
-import fga.grafico.interfaces.RotinaGraficaBase;
-import android.app.Activity;
+import fga.controller.ActivityNoticiaController;
+import fga.grafico.superclasses.AbstractActivity;
 import android.os.Bundle;
 
 /**
@@ -11,11 +11,19 @@ import android.os.Bundle;
  */
 
 /** Classe respons‡vel pela tela de uma noticia inteira **/
-public class NoticiaActivity extends Activity implements RotinaGraficaBase{
+public class NoticiaActivity extends AbstractActivity {
 
+	//Atributos de auxilio
+	ActivityNoticiaController controller;
+	
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.content_noticia);
+		
+        //Instanciação do controller
+        controller = new ActivityNoticiaController();
+		inicializarComponentes();
+		definirEventos();
 	}//fim do onCreate
 
 	public void inicializarComponentes() {

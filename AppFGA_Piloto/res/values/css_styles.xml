@@ -162,4 +162,10 @@
     </style>
     <!-- fim da parte dos eventos -->
     
+    <!-- Estilo para os elementos do contato -->
+    <style name="styleTelefonesContato">
+        <item name="android:paddingBottom">@dimen/espacamento_entre_telefones</item>
+    </style>
+    <!-- Fim do estilo dos elementos do contato -->
+    
 </resources>

@@ -1,7 +1,7 @@
 package fga.grafico;
 
+import fga.controller.ActivityNoticiasController;
 import fga.grafico.R;
-import fga.grafico.interfaces.RotinaGraficaBase;
 import fga.grafico.suporte.NoticiasAdapter;
 import fga.modelo.value_object.NoticiaVO;
 import android.os.Bundle;
@@ -17,14 +17,18 @@ import android.content.Intent;
  */
 
 /** Classe respons‡vel pela tela da lista de todas not’cias **/
-public class NoticiasActivity extends ListActivity implements RotinaGraficaBase{
+public class NoticiasActivity extends ListActivity {
 	
 	/** vari‡vel TAG a ser usada na impress‹o de logs **/
 	private String TAG = "NoticiasActivity";
+	ActivityNoticiasController controller;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        //Instanciação do controller
+        controller = new ActivityNoticiasController();
         Log.i(TAG, TAG + " iniciada.");
         inicializarComponentes();
         definirEventos();

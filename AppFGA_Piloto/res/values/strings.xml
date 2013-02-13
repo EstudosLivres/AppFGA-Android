@@ -71,11 +71,11 @@
 		\nUF: DF  – Bairro: Setor Leste (GAMA)
 		\nCEP: 72.444-240
 	</string>
-	<string name="contato_telefones">Telefones: </string>
-	<string name="contato_secretaria">Secretaria: (61) 3107 8901</string>
-	<string name="contato_cpd">CPD: (61) 3107 8910</string>
-	<string name="contato_direcao">Direção: (61) 3107 8904</string>
-	<string name="contato_administracao">Administração: (61) 3107 8906</string>
-	<string name="contato_cood_geral">Coodernação geral: (61) 3107 8907</string>
+	<string name="contato_telefones">Telefones (clique para ligar): </string>
+	<string name="contato_secretaria">Secretaria: (61) </string>
+	<string name="contato_cpd">CPD: (61) </string>
+	<string name="contato_direcao">Direção: (61) </string>
+	<string name="contato_administracao">Administração: (61) </string>
+	<string name="contato_cood_geral">Coodernação geral: (61) </string>
 	
 </resources>

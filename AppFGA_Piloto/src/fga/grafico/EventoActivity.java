@@ -1,6 +1,5 @@
 package fga.grafico;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -8,7 +7,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
-import fga.grafico.interfaces.RotinaGraficaBase;
+import fga.controller.ActivityEventoController;
+import fga.grafico.superclasses.AbstractActivity;
 
 /**
  * 
@@ -17,14 +17,18 @@ import fga.grafico.interfaces.RotinaGraficaBase;
  */
 
 /** Classe respons‡ável pela tela de um evento inteiro **/
-public class EventoActivity extends Activity implements RotinaGraficaBase{
+public class EventoActivity extends AbstractActivity {
 	//Atributos do item da lista
 	TextView tvNome, tvLocal, tvDataInicio, tvDataTermino, tvHorario, tvTipoEvento, tvContato, tvMaisInfo; 
+	ActivityEventoController controller;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.content_evento);
+		
+        //Instanciação do controller
+        controller = new ActivityEventoController();
 		inicializarComponentes();
 		definirEventos();
 	}//fim do onCreate

@@ -22,7 +22,7 @@ public class InfoActivity extends AbstractActivity {
 //        setContentView(R.layout.main); TODO
         
         //Instanciação do controller
-        controller = new ActivityInfoController();
+        controller = ActivityInfoController.getInstance();
         Log.i(TAG, TAG + " iniciada.");
         inicializarComponentes();
         definirEventos();

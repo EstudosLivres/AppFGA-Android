@@ -27,7 +27,7 @@ public class ContatoActivity extends AbstractActivity {
 		setContentView(R.layout.contatos);
 		
         //Instanciação do controller
-        controller = new ActivityContatoController();
+        controller = ActivityContatoController.getInstance();
 		inicializarComponentes();
 		definirEventos();
 	}//fim do onCreate

@@ -21,7 +21,7 @@ public class NoticiaActivity extends AbstractActivity {
 		setContentView(R.layout.content_noticia);
 		
         //Instanciação do controller
-        controller = new ActivityNoticiaController();
+        controller = ActivityNoticiaController.getInstance();
 		inicializarComponentes();
 		definirEventos();
 	}//fim do onCreate

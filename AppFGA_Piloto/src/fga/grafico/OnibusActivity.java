@@ -22,7 +22,7 @@ public class OnibusActivity extends AbstractActivity {
 //        setContentView(R.layout.main); TODO
         
         //Instanciação do controller
-        controller = new ActivityOnibusController();
+        controller = ActivityOnibusController.getInstance();
         Log.i(TAG, TAG + " iniciada.");
         inicializarComponentes();
         definirEventos();

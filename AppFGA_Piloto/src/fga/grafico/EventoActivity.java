@@ -28,7 +28,7 @@ public class EventoActivity extends AbstractActivity {
 		setContentView(R.layout.content_evento);
 		
         //Instanciação do controller
-        controller = new ActivityEventoController();
+        controller = ActivityEventoController.getInstance();
 		inicializarComponentes();
 		definirEventos();
 	}//fim do onCreate

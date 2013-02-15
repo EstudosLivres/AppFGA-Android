@@ -32,7 +32,7 @@ public class MainActivity extends AbstractActivity {
         setContentView(R.layout.content_main);
         Log.i(TAG, TAG + " iniciada.");
         //Instanciação do controller
-        controller = new ActivityMainController();
+        controller = ActivityMainController.getInstance();
         inicializarComponentes();
         definirEventos();
     }//fim do onCreate

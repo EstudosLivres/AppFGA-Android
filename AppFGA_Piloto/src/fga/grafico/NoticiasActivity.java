@@ -28,7 +28,7 @@ public class NoticiasActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         
         //Instanciação do controller
-        controller = new ActivityNoticiasController();
+        controller = ActivityNoticiasController.getInstance();
         Log.i(TAG, TAG + " iniciada.");
         inicializarComponentes();
         definirEventos();

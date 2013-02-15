@@ -18,6 +18,14 @@ public class ActivityContatoController {
 	//Instanciação do objeto
 	public final ContatoTelefone telefones = new ContatoTelefone(telSecretaria, telCPD, telDirecao, telAdministracao, telCoodernacaoGeral);
 	
+	//Variávei estática com a única instância do controller
+	private static ActivityContatoController instanciaUnica;
 	
+	/** Método resposnável por retornar a única instância do controller, padrão singleton de projetos. **/
+	public static synchronized ActivityContatoController getInstance() {
+		if (instanciaUnica == null) 
+			instanciaUnica = new ActivityContatoController();
+    return instanciaUnica;
+  }//fim do getInstance
 
 }//fim da classe

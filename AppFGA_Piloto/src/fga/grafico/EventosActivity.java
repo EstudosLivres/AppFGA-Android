@@ -27,7 +27,7 @@ public class EventosActivity extends ListActivity {
 //        setContentView(R.layout.main); TODO
         
         //Instanciação do controller
-        controller = new ActivityEventosController();
+        controller = ActivityEventosController.getInstance();
         Log.i(TAG, TAG + " iniciada.");
         inicializarComponentes();
         definirEventos();

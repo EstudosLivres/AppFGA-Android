@@ -22,7 +22,7 @@ public class EntradaActivity extends AbstractActivity {
 //        setContentView(R.layout.main); TODO
         
         //Instanciação do controller
-        controller = new ActivityEntradaController();
+        controller = ActivityEntradaController.getInstance();
         Log.i(TAG, TAG + " iniciada.");
         inicializarComponentes();
         definirEventos();
